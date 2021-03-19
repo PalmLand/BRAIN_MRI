@@ -6,4 +6,4 @@
     * Training set(180 patients): Absence of signal(650), Moderate stenosis(760), Occlusion(609), and Severe stenosis(598).
     * Testing set(20 patients): Absence of signal(77), Moderate stenosis(81), Occlusion(48), and Severe stenosis(70).
 
-![Category distribution](./)
+![Category distribution](./imgs/labels.jpg)
