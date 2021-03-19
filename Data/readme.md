@@ -1,5 +1,6 @@
-1. The Original data contains 200 patients' MRI images and its annotations.
-  * 4 labels: Absence of signal, Moderate stenosis, Occlusion, and Severe stenosis.
+# The Original data 
+1. contains 200 patients' MRI images and its annotations.
+2. 4 labels: Absence of signal, Moderate stenosis, Occlusion, and Severe stenosis.
   * data format: VOC.
   * we select 2815 images with xml files, including 727 Absence of signal images and its xnl, 841 Moderate stenosis images and its xnl, 657 Occlusion images and its xnl, and 668 Severe stenosis images and its xnl.
   * Then we split taining set and testing set mannually to ensure a balanced distribution of labels.
