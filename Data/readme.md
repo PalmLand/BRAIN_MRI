@@ -11,5 +11,5 @@
     * Training set(180 patients, 2545 images and xml files): Absence of signal(650), Moderate stenosis(760), Occlusion(609), and Severe stenosis(598).
     * Testing set(20 patients, 270 images and xml files): Absence of signal(77), Moderate stenosis(81), Occlusion(48), and Severe stenosis(70).
     * Training set and testing set stored in ./train and ./test, respectively.
-  * Running `02_train_val_split.py` to split training set(90%) and validation set(10%) randomly from training set.
+  * Running `02_train_val_split.py` to split training set(90%) and validation set(10%) randomly from **training set**, generating train.txt and test.txt in ./ImageSets/Main.
   * Running `03_gene_test_txt.py` to generate test.txt in ./ImageSets/Main
