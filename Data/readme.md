@@ -13,3 +13,14 @@
     * Training set and testing set stored in ./train and ./test, respectively.
   * Running `02_train_val_split.py` to split training set(90%) and validation set(10%) randomly from **training set**, generating train.txt and test.txt in ./ImageSets/Main.
   * Running `03_gene_test_txt.py` to generate test.txt in ./ImageSets/Main
+
+**file tree**
+```
+./Annotations
+./ImagesSets
+    |__Main
+        |_train.txt,val.txt,test.txt
+./JPEGImages
+./train
+./test
+```
