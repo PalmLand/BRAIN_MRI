@@ -17,6 +17,13 @@
             |_test
 ./models
 ./runs
+    |_detect
+        |_annotations
+        |_exp
+        |_iamges
+        |_output_groundtruth
+        |_add_anchors.py
+    |_train
 ./utils
 ./wandb
 ./weights
