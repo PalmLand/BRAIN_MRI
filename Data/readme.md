@@ -6,7 +6,7 @@
   * Copy these files to ./Annotations and ./JPEGImages, respectivly. 
   * Running `00_count_labels.py` to compute each labels's account.
   * Running `01_check_img.py` to check images and xml files.
-    <img src="./imgs/labels.jpg" width="450" height="450"></br>
+    <center><img src="./imgs/labels.jpg" width="450" height="450"></br></center>
   * Then we splited taining set and testing set mannually to ensure a balanced distribution of labels.
     * Training set(180 patients, 2545 images and xml files): Absence of signal(650), Moderate stenosis(760), Occlusion(609), and Severe stenosis(598).
     * Testing set(20 patients, 270 images and xml files): Absence of signal(77), Moderate stenosis(81), Occlusion(48), and Severe stenosis(70).
