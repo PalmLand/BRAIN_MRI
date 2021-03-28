@@ -24,3 +24,6 @@
 ./train
 ./test
 ```
+
+# VOC to COCO
+If I use [EfficientDet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch), I need to transform VOC to COCO, I referenced this [repo](https://github.com/Stephenfang51/VOC_to_COCO)
