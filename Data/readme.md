@@ -27,16 +27,16 @@
 ```
 
 # VOC to COCO
-If I use [EfficientDet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch), I need to transform VOC to COCO firstly, you need to run `python voc2coco.py`.
+If I use [EfficientDet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch), I need to transform VOC to COCO firstly, you need to run `python voc2coco.py` and `python copy_imgs.py`.
 
 **file tree**
 ```
 ./COCO
     |__annotations 
-        |__instances_train2017.json
-        |__instances_val2017.json
-        |__instances_test.json
-    |__train2017 # training images
-    |__val2017   # validation images
-    |__test2017  # testing images
+        |__instances_train2021.json
+        |__instances_val2021.json
+        |__instances_test2021.json
+    |__train2021 # training images
+    |__val2021   # validation images
+    |__test2021  # testing images
 ```
