@@ -27,7 +27,7 @@
 ```
 
 # VOC to COCO
-If I use [EfficientDet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch), I need to transform VOC to COCO firstly, you need to run `python vpc2coco.py`.
+If I use [EfficientDet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch), I need to transform VOC to COCO firstly, you need to run `python voc2coco.py`.
 
 **file tree**
 ```
