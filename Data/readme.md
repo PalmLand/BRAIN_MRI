@@ -27,7 +27,8 @@
 ```
 
 # VOC to COCO
-If I use [EfficientDet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch), I need to transform VOC to COCO firstly, you need to run `python voc2coco.py` and `python copy_imgs.py`.
+If I use [EfficientDet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch), I need to transform VOC to COCO firstly, you need to run `python 1.voc2coco.py` and `python 2.copy_imgs.py`.
+> Optional: run `python 3.rename_imgs.py` and `python 4.rename_json.py` to change images' names and annotations' content, respectively.
 
 **file tree**
 ```
