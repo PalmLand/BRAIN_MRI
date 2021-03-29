@@ -56,4 +56,4 @@ if __name__ == '__main__':
             count_sum = count_sum + num_objs[name]
         for name in classnames:
             print('{}:{}个 {}%'.format(name,num_objs[name],num_objs[name]/count_sum*100))
-        print('信息统计算完毕。')
+        print('Done!')
