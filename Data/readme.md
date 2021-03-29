@@ -16,14 +16,26 @@
 
 **file tree**
 ```
-./Annotations
-./ImagesSets
-    |__Main
-        |_train.txt,val.txt,test.txt
-./JPEGImages
-./train
-./test
+./VOC
+    |__Annotations
+    |__ImagesSets
+        |__Main
+            |__train.txt,val.txt,test.txt
+    |__JPEGImages
+    |__train
+    |__test
 ```
 
 # VOC to COCO
-If I use [EfficientDet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch), I need to transform VOC to COCO firstly, so I referenced this [repo](https://github.com/Stephenfang51/VOC_to_COCO).
+If I use [EfficientDet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch), I need to transform VOC to COCO firstly, you need to run `python vpc2coco.py`.
+**file tree**
+```
+./COCO
+    |__annotations 
+        |__instances_train2017.json
+        |__instances_val2017.json
+        |__instances_test.json
+    |__train2017 # training images
+    |__val2017   # validation images
+    |__test2017  # testing images
+```
